@@ -1,9 +1,15 @@
-.navbar {
+.navbar_container {
+    width: 100%;
     background-color: #495371;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 5%;
+    padding: 1% 0%;
 }
 
 .navbar a {
@@ -15,4 +21,5 @@
 
 .navbar .navbar_brand a {
     font-size: 1.5rem;
+    padding-left: 0px;
 }
